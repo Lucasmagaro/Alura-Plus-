@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: #167bf7;
+  --cor-de-fundo: #00030c;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+}
+
+.cabecalho {
+  background-image: url(/assets/Background.png);
+  background-size: contain;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.conteudo_do_cabecalho {
+  padding: 125px 0 0 54px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  width: 588px;
+  color: var(--branco-principal);
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo_cabecalho {
+  font-size: 1.75rem;
+  line-height: 1.4rem;
+  text-align: center;
+  padding-bottom: 1.3rem;
+}
+.imagem_do_cabecalho {
+  width: 100%;
+  height: auto;
+  padding-bottom: 3.3rem;
+}
+.botom_cabecalho {
+  border-radius: 8px;
+  padding: 16px;
+  background-color: var(--botao-azul);
+  margin-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--branco-principal);
+  font-weight: 400;
+}
+.botom_cabecalho_secundario {
+  text-decoration: none;
+  color: var(--branco-principal);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.obs_cabecalho {
+  text-align: center;
+  font-weight: 400;
+}
+.conteudo_main {
+  color: var(--branco-principal);
+  display: flex;
+  align-items: center;
+
+  width: 90%;
+  padding-left: 60px;
+  gap: 30px;
+  height: 100vh;
+}
+.texto_do_conteudo_main {
+  text-align: start;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  padding: 30px;
+}
+.titulo_conteudo_main {
+  font-size: 3rem;
+}
+
+.conteudo_main_secundario {
+  display: flex;
+  flex-direction: row-reverse;
+  color: var(--branco-principal);
+  align-items: center;
+  width: 90%;
+  padding-left: 60px;
+  gap: 30px;
+  height: 100vh;
+}
+
+.texto_conteudo_main_secundario {
+  text-align: start;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.conteudo_main_secundario_paragrafo_botao {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.botom_conteudo_main_secudario {
+  text-decoration: none;
+  color: var(--branco-principal);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: var(--botao-azul);
+  font-weight: 400;
+  width: 162px;
+}
+.conteudo_main_terciario {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+  width: 90%;
+  padding-left: 60px;
+}
+.texto_do_conteudo_main_terciario {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.titulo_conteudo_main_terciario {
+  font-size: 3rem;
+}
+.conteudo_final_main {
+  color: var(--branco-principal);
+  text-align: center;
+  font-weight: 400;
+  height: 70vh;
+  font-family: "Inter", sans-serif;
+  width: 90%;
+  padding-left: 60px;
+}
+.conteudo_imagen_main_final {
+  display: flex;
+  justify-content: space-between;
+}
+.titulo_secundario_main_final {
+  display: flex;
+  justify-content: space-between;
+}
+.celularesetablets {
+  padding-left: 60px;
+}
+.computadores {
+  padding-right: 90px;
+}
+
+.tv {
+  padding-right: 150px;
+}
+.conteudo_main_final_primeiro {
+  font-size: 3rem;
+  padding-bottom: 40px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 207px;
+  color: var(--branco-principal);
+  width: 90%;
+  padding-left: 60px;
+  align-items: center;
+}
+.imagen_footer {
+  width: 102px;
+  height: auto;
+}
+.link_footer {
+  display: flex;
+  gap: 20px;
+}
+.link_footer a {
+  text-decoration: none;
+  color: var(--branco-principal);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.conteudo_final_footer {
+  color: var(--cinza-secundario);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.link_footer a:hover {
+  color: var(--botao-azul);
+}
