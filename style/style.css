@@ -17,7 +17,7 @@ body {
 }
 
 .cabecalho {
-  background-image: url(/assets/Background.png);
+  background-image: url(./assets/Background.png);
   background-size: contain;
   height: 100vh;
   background-repeat: no-repeat;
